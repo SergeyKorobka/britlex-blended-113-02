@@ -41,7 +41,7 @@
           </ul>
         </nav>
 
-        <button class="header-btn" type="button">Let’s Talk</button>
+        <button class="main-btn header-btn" type="button">Let’s Talk</button>
       </div>
     </header>
     <main>
@@ -49,15 +49,58 @@
         <div class="container hero-container">
           <div class="hero-content-wrapper">
             <h1 class="hero-title">Learn Any Foreign Language</h1>
+
+            <svg class="hero-icon" width="120" height="120">
+              <use href="./images/icons.svg#icon-bulb"></use>
+            </svg>
+
             <p class="hero-subtitle">
               With our teachers who write a program for each student, you will
               be able to make your first sketch after the first lesson.
             </p>
-            <button class="hero-btn" type="button">Get started</button>
+            <button class="main-btn hero-btn" type="button">Get started</button>
           </div>
 
           <div class="hero-thumb">
             <img src="./images/hero-img.png" width="654" alt="picture" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-contact">
+        <div class="container contact-container">
+          <div class="contact-thumb">
+            <img
+              class="contact-img"
+              src="./images/contact.png"
+              alt="contact"
+              width="425"
+            />
+          </div>
+
+          <div class="contact-content">
+            <h2 class="contact-title">Contact Us</h2>
+            <p class="contact-text">
+              Discover your current English level by taking our free online
+              English test. Sign up to our newsletter for learning tips and free
+              resources
+            </p>
+
+            <form class="contact-form">
+              <label class="contact-label">
+                <input
+                  class="contact-input"
+                  type="text"
+                  name="user-email"
+                  placeholder="Enter Your E-mail"
+                  required
+                />
+              </label>
+
+              <button class="main-btn contact-btn" type="submit">
+                Subscribe
+              </button>
+            </form>
           </div>
         </div>
       </section>
